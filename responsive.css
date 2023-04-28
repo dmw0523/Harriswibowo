@@ -16,18 +16,29 @@
         
 
      }
-    header.sticky{
+
+     header.sticky{
 
         background: var(--main-color);
         padding: 15px 2%;
         box-shadow: 0 0 20px rgb(0 0 10px / 10%);
-        color: white;
+        color: rgb(255, 255, 254);
         justify-content: space-between;
       
      
     }
-
+ 
     .menu-icon .toggle{
+    
+        color: #000000;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 1001;
+        display: block;
+        
+    }
+
+    .menu-icon .tombol{
     
         color: #ffffff;
         font-size: 30px;
@@ -35,9 +46,13 @@
         z-index: 1001;
         display: block;
         
-     
+    }
+
+    .menu-icon .toggle::after{
     
-    
+        color: #ffffff;
+
+        
     }
 
 
