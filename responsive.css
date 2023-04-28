@@ -71,15 +71,11 @@
     }
  
     .menu-icon .btn-menu{
-    
-        color:black;
-        font-size: 30px;
-        cursor: pointer;
-        z-index: 1001;
-        
 
-        
-    }
+        display: block;
+        font-size: 30px;
+      }
+    
 
     .menu-icon .tombol{
     

@@ -139,18 +139,9 @@ header.sticky a{
 
 
 .menu-icon .btn-menu{
-    
-    color: #000;
-    font-size: 40px;
-    cursor: pointer;
-    z-index: 1001;
-    display: none;
-    
- 
 
-
+  display: none;
 }
-
 section{
 
     padding: 100px 15%;
