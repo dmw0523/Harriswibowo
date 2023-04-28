@@ -1,0 +1,200 @@
+
+
+    @media (max-width: 428px) {
+        
+    
+    .menu-nav{
+
+        display: none;
+    }
+
+
+     header{
+
+        padding: 10px 5%;
+        font-size: 14px;
+        justify-content: center;
+
+     }
+    header.sticky{
+
+        background: var(--main-color);
+        padding: 15px 2%;
+        box-shadow: 0 0 20px rgb(0 0 10px / 10%);
+        color: white;
+        justify-content: space-between;
+      
+     
+    }
+
+    .menu-icon .toggle{
+    
+        color: #ffffff;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 1001;
+        display: block;
+        
+     
+    
+    
+    }
+
+
+    .home .intro{
+
+        order: 2;
+        line-height: 1;
+        text-align: center;
+
+      
+    }
+
+    .home .intro h1{
+
+     font-size: 30px;
+
+      
+    }
+
+    
+    .home .pp img{
+
+        order: 1;
+        margin-top: 50px;
+        max-width: 100%;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+
+      
+    }
+
+    .about{
+
+        padding-top: 10px;
+    }
+
+    .tittle h1{
+
+        font-size: 24px;
+    }
+
+    .tittle p{
+
+        font-size: 16px;
+    }
+
+    .box-img{
+
+        max-width: 100%;
+        width: 320px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+   
+
+  .boxes-2{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px, auto));
+    justify-content:center;
+    align-items: center;
+    column-gap: 40px;
+ 
+
+  }
+
+  .box-about h3{
+
+    max-width:100%;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 22px;
+
+
+}
+
+.box-about h1{
+
+    max-width:100%;
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 28px;
+
+
+}
+
+
+.box-about p{
+
+     max-width:100%;
+     padding: 20px 50px;
+     text-align: center;
+
+
+}
+
+.service{
+
+    margin-top: -100px;
+}
+
+.tittle{
+
+    padding-bottom: 20px;
+}
+
+.tittle-project h1{
+
+    font-size: 22px;
+}
+
+.boxes{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
+    justify-content:center;
+    align-items: center;
+    grid-gap: 3rem;
+}
+
+
+.footer{
+
+    padding: 30px;
+}
+.footer .bulat a{
+
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background: var(--bg-color);
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-weight: 900;
+    padding: 10px;
+   
+
+}
+
+
+
+.footer .copy{
+
+    font-size: 15px;
+    display: inline-flex;
+    justify-content:flex-end;
+    text-align: center;
+   
+
+}
+
+
+}

@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    overflow-inline: hidden;
 
 }
 
@@ -81,6 +82,7 @@ header.sticky a{
 .brand .brand-icon{
 
   font-size: 25px;
+
 }
 
 
@@ -127,12 +129,15 @@ header.sticky a{
 }
 
 
-.menu-icon i{
-    color: #f75023;
-    font-size: 15px;
+.menu-icon .toggle{
+    
+    color: #000;
+    font-size: 40px;
     cursor: pointer;
     z-index: 1001;
     display: none;
+    
+ 
 
 
 }
@@ -217,6 +222,22 @@ section{
     text-align: center;
     margin-top: 50px;
     
+}
+
+.box-sub-service:hover{
+    background: #ffffff;
+    box-shadow: 18px 0px  87px 0px rgba(10, 33, 245, 20%);
+    border-radius:12px ;
+    -webkit-border-radius:12px ;
+    -moz-border-radius:12px ;
+    -ms-border-radius:12px ;
+    -o-border-radius:12px ;
+    will-change: transform;
+    transform: perspective(2000px) rotateX('4.80deg') rotateY('10.23deg') scale3d(1.05,1.05,1.05);
+    -webkit-transform: perspective(2000px) rotateX('4.80deg') rotateY('10.23deg') scale3d(1.05,1.05,1.05);
+    -moz-transform: perspective(2000px) rotateX('4.80deg') rotateY('10.23deg') scale3d(1.05,1.05,1.05);
+    -ms-transform: perspective(2000px) rotateX('4.80deg') rotateY('10.23deg') scale3d(1.05,1.05,1.05);
+    -o-transform: perspective(2000px) rotateX('4.80deg') rotateY('10.23deg') scale3d(1.05,1.05,1.05);
 }
 
 .box-sub-service{
