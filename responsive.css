@@ -30,7 +30,7 @@
  
     .menu-icon .toggle{
     
-        color: #000000;
+        color: var(--main-color);
         font-size: 30px;
         cursor: pointer;
         z-index: 1001;

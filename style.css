@@ -6,6 +6,8 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    
+ 
   
 
 }
@@ -31,7 +33,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
-    overflow: scroll;
+    overflow-x: hidden;
+
+  
+ 
 }
 
 header{
@@ -51,6 +56,7 @@ header{
     -ms-transition:.3s ;
     -o-transition:.3s ;
     flex-wrap: wrap;
+    
 }
 
 header.sticky{
