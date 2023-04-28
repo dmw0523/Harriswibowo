@@ -55,7 +55,7 @@ header{
     -moz-transition:.3s ;
     -ms-transition:.3s ;
     -o-transition:.3s ;
-    flex-wrap: wrap;
+   
     
 }
 
@@ -80,12 +80,14 @@ header.sticky a{
 
     display: flex;
     align-items: center;
-    align-items: center;
-    justify-content:space-around;
-    column-gap:10px;
+    justify-content:space-between;
  
 }
 
+.brand h3{
+
+    font-size: 20px;
+}
 .brand .brand-icon{
 
   font-size: 25px;
@@ -136,7 +138,7 @@ header.sticky a{
 }
 
 
-.menu-icon .toggle{
+.menu-icon .btn-menu{
     
     color: #000;
     font-size: 40px;

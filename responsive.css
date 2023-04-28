@@ -2,11 +2,52 @@
 
     @media (max-width: 428px) {
     
+ body{
+
+    scroll-behavior: smooth;
+ }
    
     .menu-nav{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.671);
+        text-align: center;
+        transition: 1s ease;
+        -webkit-transition: 1s ease;
+        -moz-transition: 1s ease;
+        -ms-transition: 1s ease;
+        -o-transition: 1s ease;
+        z-index: -1000;
+}
 
-        display: none;
+    .menu-nav a{
+
+        display: block;
+        margin-inline: 0 auto;
+      
+        font-size: 20px;
+     
+        color: #ffffff;
+      
+    
     }
+
+    .menu-nav a::after{
+    display: none;
+ 
+    }
+
+    .menu-nav.active{
+
+        top:100%;
+    }
+
+    
+
+
 
 
      header{
@@ -14,13 +55,14 @@
         padding: 10px 5%;
         font-size: 14px;
         
+        
 
      }
 
      header.sticky{
 
         background: var(--main-color);
-        padding: 15px 2%;
+        padding: 15px 5%;
         box-shadow: 0 0 20px rgb(0 0 10px / 10%);
         color: rgb(255, 255, 254);
         justify-content: space-between;
@@ -28,13 +70,14 @@
      
     }
  
-    .menu-icon .toggle{
+    .menu-icon .btn-menu{
     
-        color: var(--main-color);
+        color:black;
         font-size: 30px;
         cursor: pointer;
         z-index: 1001;
-        display: block;
+        
+
         
     }
 
@@ -48,12 +91,7 @@
         
     }
 
-    .menu-icon .toggle::after{
-    
-        color: #ffffff;
 
-        
-    }
 
 
     .home .intro{
@@ -87,7 +125,7 @@
 
     .about{
 
-        padding-top: 10px;
+        padding-top: 70px;
     }
 
     .tittle h1{
