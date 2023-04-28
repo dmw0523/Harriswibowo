@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 
 }
 

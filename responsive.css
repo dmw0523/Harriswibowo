@@ -2,11 +2,10 @@
 
     @media (max-width: 428px) {
     
-        *{
-overflow: hidden;
-        
-        }
-    
+   *{
+
+    overflow-x: hidden;
+   }
     .menu-nav{
 
         display: none;
@@ -17,7 +16,7 @@ overflow: hidden;
 
         padding: 10px 5%;
         font-size: 14px;
-        justify-content: center;
+        
 
      }
     header.sticky{
