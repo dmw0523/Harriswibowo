@@ -6,7 +6,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+  
 
 }
 
@@ -31,6 +31,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
+    overflow: scroll;
 }
 
 header{
